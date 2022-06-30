@@ -4,7 +4,7 @@ const Main = ({
 }) => {
   return (
     <main
-      className="p-5"
+      className="min-h-screen p-5 bg-light"
     >
       {children}
     </main>
