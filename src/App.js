@@ -1,9 +1,10 @@
+import RoutesConfig from "./routes/RoutesConfig";
 
 
 function App() {
   return (
     <>
-    
+      <RoutesConfig />
     </>
   );
 }
