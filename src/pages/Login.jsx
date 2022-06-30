@@ -1,8 +1,7 @@
-import { useParams, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import Main from "../components/Main";
 
 const Login = () => {
-    const params = useParams();
     return (
         <Main>
             <Link to="/">Go home</Link>
