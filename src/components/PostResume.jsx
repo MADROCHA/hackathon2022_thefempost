@@ -7,8 +7,13 @@ const PostResume = ({
 }) => {
   return (
     <Link to={link}>
-      <article>
-        {children}
+      <article
+        className="flex flex-col justify-between h-full gap-5 p-5 border border-violet-light hover:bg-violet-light/10"
+      >
+        <div className="space-y-3">
+          {children}
+        </div>
+        <p className="text-right">Read more...</p>
       </article>
     </Link>
   )
