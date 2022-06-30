@@ -7,9 +7,7 @@ const Login = () => {
             <Link to="/">Go home</Link>
                 <div class="flex flex-col p-10 border border-violet-light">
 
-                    
-                    
-                    <form action="">
+                            <form action="">
 
                         <div class="flex flex-col space-y-2">
                             <label for="username"></label>
@@ -20,7 +18,7 @@ const Login = () => {
                             <input class="border-violet-light border" placeholder="password" type="text" id="category" name="category"/>
                             
                             <button class="border-violet-light border hover:bg-violet-dark hover:text-white open-sans text-violet-dark text-xl justify-center flex place-items-center h-12 w-2/12 ">
-                                    LOGIN
+                                LOGIN
                             </button>
                         </div>
                     </form>
